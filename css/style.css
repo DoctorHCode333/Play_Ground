@@ -1,0 +1,66 @@
+.body{
+  background-color: black;
+}
+/* Title */
+/* .title{
+
+} */
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.samurai{
+    height: 500px;
+    width: 300px;
+}
+
+.image_samuria{
+    padding: 74px 0px 74px 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.gradient-background {
+  background: linear-gradient(44deg,#020fca,#020fca,#f70858, #f70858, #0f9ff3, #000000,#000000,#000000);
+  background-size:220% 350%;
+
+  /* -webkit-animation: gradient-animation 12s ease infinite; */
+  animation: gradient-animation 12s ease infinite;
+}
+
+/* @-webkit-keyframes gradient-animation {
+  0%{background-position:0% 40%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 40%}
+} */
+@keyframes gradient-animation {
+  0%{background-position:75% 0%}
+  50%{background-position:0% 100%}
+  100%{background-position:75% 0%}
+}
+#pricing{
+  padding: 50px 0px;
+} 
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+} 
