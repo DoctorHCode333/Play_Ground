@@ -1,0 +1,111 @@
+.body{
+  background-color: black;
+}
+/* Title */
+/* .title{
+
+} */
+
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: 1000px; */
+}
+/* 
+.title_text_div{
+  margin-right: 200px; 
+}
+*/
+.title_image{
+    height: 80vh;
+    width: 45vh;
+}
+
+#image_samuria{
+  padding: 5% 0px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gradient-background {
+  background: linear-gradient(44deg,#020fca,#020fca,#f70858, #f70858, #0f9ff3, #000000,#000000,#000000);
+  background-size:220% 350%;
+
+  /* -webkit-animation: gradient-animation 12s ease infinite; */
+  animation: gradient-animation 12s ease infinite;
+}
+
+/* @-webkit-keyframes gradient-animation {
+  0%{background-position:0% 40%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 40%}
+} */
+@keyframes gradient-animation {
+  0%{background-position:75% 0%}
+  50%{background-position:0% 100%}
+  100%{background-position:75% 0%}
+}
+
+#pricing{
+  padding: 50px 0px;
+} 
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+} 
+@media only screen and (max-width:700px){
+  #title_text{
+    font-size: 0.35rem;
+  }
+}
+@media only screen and (max-width:650px){
+  #title_text{
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width:350px){
+  #title_text{
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width:300px){
+  #title_text{
+    font-size: 0.35rem;
+  }
+}
+
+
+
+@media only screen and (min-width:750px){
+  #title_text{
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1700px){
+  .title_image{
+    height: 45vh;
+    width: 25vh;
+}
+}
